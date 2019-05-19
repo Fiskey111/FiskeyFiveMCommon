@@ -1,0 +1,7 @@
+E:\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\bin\Release\CommonClient.net.dll
+E:\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\bin\Release\CommonClient.net.pdb
+E:\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\bin\Release\CitizenFX.Core.dll
+E:\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\bin\Release\nativeui.net.dll
+E:\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\obj\Release\Client.csproj.CoreCompileInputs.cache
+E:\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\obj\Release\CommonClient.net.dll
+E:\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\obj\Release\CommonClient.net.pdb

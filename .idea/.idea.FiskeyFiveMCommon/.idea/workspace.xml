@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a71750ac-1b26-42f1-8ab6-600be41211bb" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-823439152">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.0" value="9" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cs" value="12" />
+          <entry key="csproj" value="1" />
+          <entry key="sln" value="2" />
+          <entry key="targets" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="12" />
+          <entry key="Csproj" value="1" />
+          <entry key="MsBuild targets file" value="1" />
+          <entry key="Solution File" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="773" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="773" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FiskeyFiveMCommon/Objects/SpawnPoint.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+              <folding>
+                <marker date="1547080866159" expanded="true" signature="83:1025" ph="{...}" />
+                <marker date="1547080866159" expanded="true" signature="278:343" ph="{...}" />
+                <marker date="1547080866159" expanded="true" signature="383:431" ph="{...}" />
+                <marker date="1547080866159" expanded="true" signature="500:596" ph="{...}" />
+                <marker date="1547080866159" expanded="true" signature="651:730" ph="{...}" />
+                <marker date="1547080866159" expanded="true" signature="783:859" ph="{...}" />
+                <marker date="1547080866159" expanded="true" signature="926:1019" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Server/Utilities/Serializer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+              <folding>
+                <marker date="1556062327374" expanded="false" signature="6:114" ph="..." />
+                <marker date="1556062327374" expanded="true" signature="148:3355" ph="{...}" />
+                <marker date="1556062327374" expanded="true" signature="185:3353" ph="{...}" />
+                <marker date="1556062327374" expanded="true" signature="269:565" ph="{...}" />
+                <marker date="1556062327374" expanded="true" signature="634:714" ph="{...}" />
+                <marker date="1556062327374" expanded="true" signature="794:1039" ph="{...}" />
+                <marker date="1556062327374" expanded="true" signature="871:1029" ph="{...}" />
+                <marker date="1556062327374" expanded="true" signature="1157:1407" ph="{...}" />
+                <marker date="1556062327374" expanded="true" signature="1479:1542" ph="{...}" />
+                <marker date="1556062327374" expanded="true" signature="1608:1789" ph="{...}" />
+                <marker date="1556062327374" expanded="true" signature="1681:1779" ph="{...}" />
+                <marker date="1556062327374" expanded="true" signature="1850:2041" ph="{...}" />
+                <marker date="1556062327374" expanded="true" signature="1927:2031" ph="{...}" />
+                <marker date="1556062327374" expanded="true" signature="2129:2278" ph="{...}" />
+                <marker date="1556062327374" expanded="true" signature="2376:2506" ph="{...}" />
+                <marker date="1556062327374" expanded="true" signature="2569:2644" ph="{...}" />
+                <marker date="1556062327374" expanded="true" signature="2715:2804" ph="{...}" />
+                <marker date="1556062327374" expanded="true" signature="2814:3034" ph="/// Creates folder in case it doesn't exist and checks file existance. ... " />
+                <marker date="1556062327374" expanded="true" signature="3088:3347" ph="{...}" />
+                <marker date="1556062327374" expanded="true" signature="3192:3298" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Server/Extensions.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="17" selection-start-line="17" selection-end-line="22" selection-end-column="15" />
+              <folding>
+                <marker date="1556138905089" expanded="false" signature="6:159" ph="..." />
+                <marker date="1556138905089" expanded="true" signature="183:1387" ph="{...}" />
+                <marker date="1556138905089" expanded="true" signature="220:1385" ph="{...}" />
+                <marker date="1556138905089" expanded="true" signature="465:701" ph="{...}" />
+                <marker date="1556138905089" expanded="true" signature="543:689" ph="{...}" />
+                <marker date="1556138905089" expanded="true" signature="771:1285" ph="{...}" />
+                <marker date="1556138905089" expanded="true" signature="808:1275" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FiskeyFiveMCommon/UI/DisplayMessageBox.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1514598605837" expanded="true" signature="6:94" ph="..." />
+                <marker date="1514598605837" expanded="true" signature="121:1498" ph="{...}" />
+                <marker date="1514598605837" expanded="true" signature="171:1496" ph="{...}" />
+                <marker date="1514598605837" expanded="true" signature="284:448" ph="{...}" />
+                <marker date="1514598605837" expanded="true" signature="553:1490" ph="{...}" />
+                <marker date="1514598605837" expanded="true" signature="880:1197" ph="{...}" />
+                <marker date="1514598605837" expanded="true" signature="952:1068" ph="{...}" />
+                <marker date="1514598605837" expanded="true" signature="1115:1151" ph="{...}" />
+                <marker date="1514598605837" expanded="true" signature="1240:1351" ph="{...}" />
+                <marker date="1514598605837" expanded="true" signature="1394:1453" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FiskeyFiveMCommon/UI/GameText.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1525503608693" expanded="false" signature="6:127" ph="..." />
+                <marker date="1525503608693" expanded="true" signature="154:3258" ph="{...}" />
+                <marker date="1525503608693" expanded="true" signature="195:3256" ph="{...}" />
+                <marker date="1525503608693" expanded="true" signature="965:1221" ph="{...}" />
+                <marker date="1525503608693" expanded="true" signature="1456:1801" ph="{...}" />
+                <marker date="1525503608693" expanded="true" signature="1829:2042" ph="{...}" />
+                <marker date="1525503608693" expanded="true" signature="2070:2121" ph="{...}" />
+                <marker date="1525503608693" expanded="true" signature="2159:2817" ph="{...}" />
+                <marker date="1525503608693" expanded="true" signature="2194:2807" ph="{...}" />
+                <marker date="1525503608693" expanded="true" signature="2980:3139" ph="{...}" />
+                <marker date="1525503608693" expanded="true" signature="3174:3250" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FiskeyFiveMCommon/UI/ScreenNotification.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+              <folding>
+                <marker date="1518771041081" expanded="false" signature="6:144" ph="..." />
+                <marker date="1518771041081" expanded="true" signature="171:679" ph="{...}" />
+                <marker date="1518771041081" expanded="true" signature="209:677" ph="{...}" />
+                <marker date="1518771041081" expanded="true" signature="330:671" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FiskeyFiveMCommon/Extensions/Entities.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="98" column="38" lean-forward="true" selection-start-line="98" selection-start-column="38" selection-end-line="98" selection-end-column="39" />
+              <folding>
+                <marker date="1558269155642" expanded="false" signature="6:280" ph="..." />
+                <marker date="1558269155642" expanded="true" signature="315:5859" ph="{...}" />
+                <marker date="1558269155642" expanded="true" signature="350:5857" ph="{...}" />
+                <marker date="1558269155642" expanded="true" signature="549:651" ph="{...}" />
+                <marker date="1558269155642" expanded="true" signature="709:928" ph="{...}" />
+                <marker date="1558269155642" expanded="true" signature="986:1132" ph="{...}" />
+                <marker date="1558269155642" expanded="true" signature="1212:1448" ph="{...}" />
+                <marker date="1558269155642" expanded="true" signature="1321:1438" ph="{...}" />
+                <marker date="1558269155642" expanded="true" signature="1509:1740" ph="{...}" />
+                <marker date="1558269155642" expanded="true" signature="1803:2224" ph="{...}" />
+                <marker date="1558269155642" expanded="true" signature="2279:2386" ph="{...}" />
+                <marker date="1558269155642" expanded="true" signature="2442:2551" ph="{...}" />
+                <marker date="1558269155642" expanded="true" signature="2603:2704" ph="{...}" />
+                <marker date="1558269155642" expanded="true" signature="5150:5238" ph="{...}" />
+                <marker date="1558269155642" expanded="true" signature="5294:5386" ph="{...}" />
+                <marker date="1558269155642" expanded="true" signature="5442:5621" ph="{...}" />
+                <marker date="1558269155642" expanded="true" signature="5543:5611" ph="{...}" />
+                <marker date="1558269155642" expanded="true" signature="5678:5851" ph="{...}" />
+                <marker date="1558269155642" expanded="true" signature="5779:5841" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FiskeyFiveMCommon/Objects/Scenario.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <marker date="1558265071760" expanded="false" signature="6:166" ph="..." />
+                <marker date="1558265071760" expanded="true" signature="239:7331" ph="{...}" />
+                <marker date="1558265071760" expanded="true" signature="267:7329" ph="{...}" />
+                <marker date="1558265071760" expanded="true" signature="506:651" ph="{...}" />
+                <marker date="1558265071760" expanded="true" signature="721:817" ph="{...}" />
+                <marker date="1558265071760" expanded="true" signature="882:1230" ph="{...}" />
+                <marker date="1558265071760" expanded="true" signature="969:1082" ph="{...}" />
+                <marker date="1558265071760" expanded="true" signature="1099:1219" ph="{...}" />
+                <marker date="1558265071760" expanded="true" signature="1278:1605" ph="{...}" />
+                <marker date="1558265071760" expanded="true" signature="1313:1595" ph="{...}" />
+                <marker date="1558265071760" expanded="true" signature="1633:1726" ph="{...}" />
+                <marker date="1558265071760" expanded="true" signature="1760:7323" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FiskeyFiveMCommon/Extensions/Miscellaneous.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <marker date="1516257078514" expanded="false" signature="6:166" ph="..." />
+                <marker date="1516257078514" expanded="true" signature="201:543" ph="{...}" />
+                <marker date="1516257078514" expanded="true" signature="241:541" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>LoadItemFromXML</find>
+    </findStrings>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/FiskeyFiveMCommon/Extensions/Entities.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FiskeyFiveMCommon/Creators/PedCreator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Server/Utilities/Serializer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FiskeyFiveMCommon/UI/GameText.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FiskeyFiveMCommon/UI/DisplayMessageBox.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FiskeyFiveMCommon/Objects/Scenario.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Server/Extensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FiskeyFiveMCommon/UI/ScreenNotification.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FiskeyFiveMCommon/Objects/SpawnPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FiskeyFiveMCommon/Extensions/Miscellaneous.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/FiskeyFiveMCommon/Objects/SpawnPoint.cs" />
+        <option value="$PROJECT_DIR$/Server/Utilities/Serializer.cs" />
+        <option value="$PROJECT_DIR$/Server/Extensions.cs" />
+        <option value="$PROJECT_DIR$/FiskeyFiveMCommon/Objects/Scenario.cs" />
+        <option value="$PROJECT_DIR$/FiskeyFiveMCommon/Extensions/Entities.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="FiskeyFiveMCommon" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="FiskeyFiveMCommon" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Client" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="FiskeyFiveMCommon" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Client" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Extensions" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="FiskeyFiveMCommon" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Client" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Objects" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FiveMEmergencyServices" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a71750ac-1b26-42f1-8ab6-600be41211bb" name="Default Changelist" comment="" />
+      <created>1547068041884</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547068041884</updated>
+      <workItem from="1547068042969" duration="237000" />
+      <workItem from="1547068289882" duration="657000" />
+      <workItem from="1547069372454" duration="1349000" />
+      <workItem from="1547080882808" duration="1583000" />
+      <workItem from="1548415649999" duration="629000" />
+      <workItem from="1553352272494" duration="920000" />
+      <workItem from="1556062119760" duration="286000" />
+      <workItem from="1556138841771" duration="3823000" />
+      <workItem from="1557701412239" duration="42000" />
+      <workItem from="1557701474299" duration="39000" />
+      <workItem from="1557961040648" duration="262000" />
+      <workItem from="1558264694574" duration="2056000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="11883000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2803838" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Build" order="14" visible="true" weight="0.329718" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/Microsoft.Common.CurrentVersion.targets">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="5162" column="52" selection-start-line="5162" selection-start-column="52" selection-end-line="5162" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FiskeyFiveMCommon.sln">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FiskeyFiveMCommon/Creators/PedCreator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="59" column="37" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/Server.csproj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FiskeyFiveMCommon/Objects/SpawnPoint.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <marker date="1547080866159" expanded="true" signature="83:1025" ph="{...}" />
+            <marker date="1547080866159" expanded="true" signature="278:343" ph="{...}" />
+            <marker date="1547080866159" expanded="true" signature="383:431" ph="{...}" />
+            <marker date="1547080866159" expanded="true" signature="500:596" ph="{...}" />
+            <marker date="1547080866159" expanded="true" signature="651:730" ph="{...}" />
+            <marker date="1547080866159" expanded="true" signature="783:859" ph="{...}" />
+            <marker date="1547080866159" expanded="true" signature="926:1019" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/Utilities/Serializer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <marker date="1556062327374" expanded="false" signature="6:114" ph="..." />
+            <marker date="1556062327374" expanded="true" signature="148:3355" ph="{...}" />
+            <marker date="1556062327374" expanded="true" signature="185:3353" ph="{...}" />
+            <marker date="1556062327374" expanded="true" signature="269:565" ph="{...}" />
+            <marker date="1556062327374" expanded="true" signature="634:714" ph="{...}" />
+            <marker date="1556062327374" expanded="true" signature="794:1039" ph="{...}" />
+            <marker date="1556062327374" expanded="true" signature="871:1029" ph="{...}" />
+            <marker date="1556062327374" expanded="true" signature="1157:1407" ph="{...}" />
+            <marker date="1556062327374" expanded="true" signature="1479:1542" ph="{...}" />
+            <marker date="1556062327374" expanded="true" signature="1608:1789" ph="{...}" />
+            <marker date="1556062327374" expanded="true" signature="1681:1779" ph="{...}" />
+            <marker date="1556062327374" expanded="true" signature="1850:2041" ph="{...}" />
+            <marker date="1556062327374" expanded="true" signature="1927:2031" ph="{...}" />
+            <marker date="1556062327374" expanded="true" signature="2129:2278" ph="{...}" />
+            <marker date="1556062327374" expanded="true" signature="2376:2506" ph="{...}" />
+            <marker date="1556062327374" expanded="true" signature="2569:2644" ph="{...}" />
+            <marker date="1556062327374" expanded="true" signature="2715:2804" ph="{...}" />
+            <marker date="1556062327374" expanded="true" signature="2814:3034" ph="/// Creates folder in case it doesn't exist and checks file existance. ... " />
+            <marker date="1556062327374" expanded="true" signature="3088:3347" ph="{...}" />
+            <marker date="1556062327374" expanded="true" signature="3192:3298" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/Extensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" selection-start-line="17" selection-end-line="22" selection-end-column="15" />
+          <folding>
+            <marker date="1556138905089" expanded="false" signature="6:159" ph="..." />
+            <marker date="1556138905089" expanded="true" signature="183:1387" ph="{...}" />
+            <marker date="1556138905089" expanded="true" signature="220:1385" ph="{...}" />
+            <marker date="1556138905089" expanded="true" signature="465:701" ph="{...}" />
+            <marker date="1556138905089" expanded="true" signature="543:689" ph="{...}" />
+            <marker date="1556138905089" expanded="true" signature="771:1285" ph="{...}" />
+            <marker date="1556138905089" expanded="true" signature="808:1275" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FiskeyFiveMCommon/UI/DisplayMessageBox.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1514598605837" expanded="true" signature="6:94" ph="..." />
+            <marker date="1514598605837" expanded="true" signature="121:1498" ph="{...}" />
+            <marker date="1514598605837" expanded="true" signature="171:1496" ph="{...}" />
+            <marker date="1514598605837" expanded="true" signature="284:448" ph="{...}" />
+            <marker date="1514598605837" expanded="true" signature="553:1490" ph="{...}" />
+            <marker date="1514598605837" expanded="true" signature="880:1197" ph="{...}" />
+            <marker date="1514598605837" expanded="true" signature="952:1068" ph="{...}" />
+            <marker date="1514598605837" expanded="true" signature="1115:1151" ph="{...}" />
+            <marker date="1514598605837" expanded="true" signature="1240:1351" ph="{...}" />
+            <marker date="1514598605837" expanded="true" signature="1394:1453" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FiskeyFiveMCommon/UI/GameText.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1525503608693" expanded="false" signature="6:127" ph="..." />
+            <marker date="1525503608693" expanded="true" signature="154:3258" ph="{...}" />
+            <marker date="1525503608693" expanded="true" signature="195:3256" ph="{...}" />
+            <marker date="1525503608693" expanded="true" signature="965:1221" ph="{...}" />
+            <marker date="1525503608693" expanded="true" signature="1456:1801" ph="{...}" />
+            <marker date="1525503608693" expanded="true" signature="1829:2042" ph="{...}" />
+            <marker date="1525503608693" expanded="true" signature="2070:2121" ph="{...}" />
+            <marker date="1525503608693" expanded="true" signature="2159:2817" ph="{...}" />
+            <marker date="1525503608693" expanded="true" signature="2194:2807" ph="{...}" />
+            <marker date="1525503608693" expanded="true" signature="2980:3139" ph="{...}" />
+            <marker date="1525503608693" expanded="true" signature="3174:3250" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FiskeyFiveMCommon/UI/ScreenNotification.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <marker date="1518771041081" expanded="false" signature="6:144" ph="..." />
+            <marker date="1518771041081" expanded="true" signature="171:679" ph="{...}" />
+            <marker date="1518771041081" expanded="true" signature="209:677" ph="{...}" />
+            <marker date="1518771041081" expanded="true" signature="330:671" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FiskeyFiveMCommon/Extensions/Miscellaneous.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <marker date="1516257078514" expanded="false" signature="6:166" ph="..." />
+            <marker date="1516257078514" expanded="true" signature="201:543" ph="{...}" />
+            <marker date="1516257078514" expanded="true" signature="241:541" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FiskeyFiveMCommon/Objects/Scenario.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <marker date="1558265071760" expanded="false" signature="6:166" ph="..." />
+            <marker date="1558265071760" expanded="true" signature="239:7331" ph="{...}" />
+            <marker date="1558265071760" expanded="true" signature="267:7329" ph="{...}" />
+            <marker date="1558265071760" expanded="true" signature="506:651" ph="{...}" />
+            <marker date="1558265071760" expanded="true" signature="721:817" ph="{...}" />
+            <marker date="1558265071760" expanded="true" signature="882:1230" ph="{...}" />
+            <marker date="1558265071760" expanded="true" signature="969:1082" ph="{...}" />
+            <marker date="1558265071760" expanded="true" signature="1099:1219" ph="{...}" />
+            <marker date="1558265071760" expanded="true" signature="1278:1605" ph="{...}" />
+            <marker date="1558265071760" expanded="true" signature="1313:1595" ph="{...}" />
+            <marker date="1558265071760" expanded="true" signature="1633:1726" ph="{...}" />
+            <marker date="1558265071760" expanded="true" signature="1760:7323" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FiskeyFiveMCommon/Extensions/Entities.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="98" column="38" lean-forward="true" selection-start-line="98" selection-start-column="38" selection-end-line="98" selection-end-column="39" />
+          <folding>
+            <marker date="1558269155642" expanded="false" signature="6:280" ph="..." />
+            <marker date="1558269155642" expanded="true" signature="315:5859" ph="{...}" />
+            <marker date="1558269155642" expanded="true" signature="350:5857" ph="{...}" />
+            <marker date="1558269155642" expanded="true" signature="549:651" ph="{...}" />
+            <marker date="1558269155642" expanded="true" signature="709:928" ph="{...}" />
+            <marker date="1558269155642" expanded="true" signature="986:1132" ph="{...}" />
+            <marker date="1558269155642" expanded="true" signature="1212:1448" ph="{...}" />
+            <marker date="1558269155642" expanded="true" signature="1321:1438" ph="{...}" />
+            <marker date="1558269155642" expanded="true" signature="1509:1740" ph="{...}" />
+            <marker date="1558269155642" expanded="true" signature="1803:2224" ph="{...}" />
+            <marker date="1558269155642" expanded="true" signature="2279:2386" ph="{...}" />
+            <marker date="1558269155642" expanded="true" signature="2442:2551" ph="{...}" />
+            <marker date="1558269155642" expanded="true" signature="2603:2704" ph="{...}" />
+            <marker date="1558269155642" expanded="true" signature="5150:5238" ph="{...}" />
+            <marker date="1558269155642" expanded="true" signature="5294:5386" ph="{...}" />
+            <marker date="1558269155642" expanded="true" signature="5442:5621" ph="{...}" />
+            <marker date="1558269155642" expanded="true" signature="5543:5611" ph="{...}" />
+            <marker date="1558269155642" expanded="true" signature="5678:5851" ph="{...}" />
+            <marker date="1558269155642" expanded="true" signature="5779:5841" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

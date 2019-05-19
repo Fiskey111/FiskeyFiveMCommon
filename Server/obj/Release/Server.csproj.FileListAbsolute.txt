@@ -1,0 +1,7 @@
+E:\Source\Repos\FiskeyFiveMCommon\Server\bin\Release\CommonServer.net.dll
+E:\Source\Repos\FiskeyFiveMCommon\Server\bin\Release\CommonServer.net.pdb
+E:\Source\Repos\FiskeyFiveMCommon\Server\bin\Release\CitizenFX.Core.dll
+E:\Source\Repos\FiskeyFiveMCommon\Server\obj\Release\Server.csprojResolveAssemblyReference.cache
+E:\Source\Repos\FiskeyFiveMCommon\Server\obj\Release\Server.csproj.CoreCompileInputs.cache
+E:\Source\Repos\FiskeyFiveMCommon\Server\obj\Release\CommonServer.net.dll
+E:\Source\Repos\FiskeyFiveMCommon\Server\obj\Release\CommonServer.net.pdb
