@@ -11,10 +11,10 @@ namespace CommonClient.UI
     {
         public static int DisplayNotification(string dict, string name, string title, string subtitle, string msg)
         {
-            Function.Call(Hash._SET_NOTIFICATION_TEXT_ENTRY, "STRING");
-            Function.Call(Hash._SET_NOTIFICATION_MESSAGE, dict, name, false, 0, 0, title, subtitle);
-            Function.Call(Hash._ADD_TEXT_COMPONENT_ITEM_STRING, msg);
-            return Function.Call<int>(Hash._DRAW_NOTIFICATION, false, false);
+            API.SetNotificationTextEntry("STRING");
+            API.AddTextComponentString(msg);
+            API.SetNotificationMessage(dict, name, false, 0, title, subtitle);
+            return API.DrawNotification(false, false);
         }
     }
 }

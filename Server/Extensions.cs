@@ -23,6 +23,7 @@ namespace CommonServer
             });
         }
 
+        public static float ToFloat(this string value) => Convert.ToSingle(value);
         private static int[] GetColorFromChatColor(ChatColors color)
         {
             switch (color)

@@ -10,6 +10,22 @@ namespace CommonClient.Utilities
 {
     public class Raycast : BaseScript
     {
+        public static Entity CastForPedOrPlayer()
+        {
+            RaycastResult cast = Raycast.CastCapsule(Game.PlayerPed.Position, Game.PlayerPed.GetOffsetPosition(new Vector3(0f, 1f, 0f)), Raycast.CapsuleFlags.Peds, Game.PlayerPed);
+
+            if (!cast.HasHitEntity)
+            {
+                Screen.ShowSubtitle($"~r~No target found");
+                return null;
+            }
+            if (!cast.HitEntity.IsAPed())
+            {
+                Screen.ShowSubtitle($"~r~No ped found");
+                return null;
+            }
+            return cast.HitEntity as Entity;
+        }
         public static RaycastResult CastCapsule(Vector3 start, Vector3 end, CapsuleFlags type, Entity ignoredEntity, float radius = 1.0f)
         {
             int handle = Function.Call<int>(Hash.START_SHAPE_TEST_CAPSULE, start.X, start.Y, start.Z, end.X,
@@ -21,9 +37,7 @@ namespace CommonClient.Utilities
             OutputArgument ent = new OutputArgument(typeof(int));
 
             int result = Function.Call<int>(Hash.GET_SHAPE_TEST_RESULT, handle, hit, coords, normal, ent);
-
-            Screen.ShowNotification($"{result} {ent.GetResult<int>()} {hit.GetResult<bool>()} {coords.GetResult<Vector3>()}");
-
+            
             return new RaycastResult(Entity.FromHandle(ent.GetResult<int>()), hit.GetResult<bool>(), coords.GetResult<Vector3>());
         }
 
@@ -38,9 +52,7 @@ namespace CommonClient.Utilities
             OutputArgument ent = new OutputArgument(typeof(int));
 
             int result = Function.Call<int>(Hash.GET_SHAPE_TEST_RESULT, handle, hit, coords, normal, ent);
-
-            Screen.ShowNotification($"{result} {ent.GetResult<int>()} {hit.GetResult<bool>()} {coords.GetResult<Vector3>()}");
-
+            
             Entity hitEnt = Entity.FromHandle(ent.GetResult<int>());
             return new RaycastResult(hitEnt, hit.GetResult<bool>(), coords.GetResult<Vector3>());
         }

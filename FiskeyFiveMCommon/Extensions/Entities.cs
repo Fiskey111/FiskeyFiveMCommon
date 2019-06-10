@@ -85,6 +85,10 @@ namespace CommonClient.Extensions
         public static SpawnPoint GetSpawnPoint(this Entity entity) => 
             !entity.IsValid() ? null : new SpawnPoint(entity.Position.X, entity.Position.Y, entity.Position.Z, entity.Heading);
 
+        public static bool IsAPlayer(this Ped ped) => API.IsPedAPlayer(ped.Handle);
+
+        public static int GetPlayerIndexFromPed(this Ped ped) => API.NetworkGetPlayerIndexFromPed(ped.Handle);
+
         public static bool IsValid(this Entity entity) => entity != null && entity.Exists();
         public static void RequestControl(this Entity ent) => Call(NETWORK_REQUEST_CONTROL_OF_ENTITY, ent);
 

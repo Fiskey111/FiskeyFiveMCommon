@@ -79,7 +79,7 @@ namespace CommonClient.Creators
         {
             try
             {
-                int handle = Function.Call<int>(Hash.CREATE_PED, 4, model.Hash, pos.X, pos.Y, pos.Z, heading, true, true);
+                int handle = API.CreatePed(4, (uint)model.Hash, pos.X, pos.Y, pos.Z, heading, true, true);
                 await Delay(0500);
                 return new Ped(handle);
             }

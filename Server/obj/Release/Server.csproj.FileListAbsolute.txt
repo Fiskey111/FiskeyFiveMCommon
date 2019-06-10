@@ -5,3 +5,11 @@ E:\Source\Repos\FiskeyFiveMCommon\Server\obj\Release\Server.csprojResolveAssembl
 E:\Source\Repos\FiskeyFiveMCommon\Server\obj\Release\Server.csproj.CoreCompileInputs.cache
 E:\Source\Repos\FiskeyFiveMCommon\Server\obj\Release\CommonServer.net.dll
 E:\Source\Repos\FiskeyFiveMCommon\Server\obj\Release\CommonServer.net.pdb
+F:\Source\Repos\FiskeyFiveMCommon\Server\bin\Release\CommonServer.net.dll
+F:\Source\Repos\FiskeyFiveMCommon\Server\bin\Release\CommonServer.net.pdb
+F:\Source\Repos\FiskeyFiveMCommon\Server\bin\Release\CitizenFX.Core.dll
+F:\Source\Repos\FiskeyFiveMCommon\Server\obj\Release\Server.csprojAssemblyReference.cache
+F:\Source\Repos\FiskeyFiveMCommon\Server\obj\Release\Server.csproj.CoreCompileInputs.cache
+F:\Source\Repos\FiskeyFiveMCommon\Server\obj\Release\Server.csproj.CopyComplete
+F:\Source\Repos\FiskeyFiveMCommon\Server\obj\Release\CommonServer.net.dll
+F:\Source\Repos\FiskeyFiveMCommon\Server\obj\Release\CommonServer.net.pdb

@@ -10,7 +10,7 @@ using CitizenFX.Core.Native;
 
 namespace CommonClient.Objects
 {
-    public class Scenario
+    public class Scenario : BaseScript
     {
         public string ShortName { get; set; }
         public ScenarioList ScenarioName { get; set; }
@@ -53,7 +53,7 @@ namespace CommonClient.Objects
             {
                 if (API.IsPedUsingAnyScenario(ped.Handle) 
                     || API.IsPedActiveInScenario(ped.Handle) 
-                    || API.IsPedUsingScenario(ped.Handle, ScenarioName.ToString())) await Task.Delay(0);
+                    || API.IsPedUsingScenario(ped.Handle, ScenarioName.ToString())) await Delay(0);
 
                 Play(ped);
             }
