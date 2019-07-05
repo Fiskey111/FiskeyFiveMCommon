@@ -13,9 +13,9 @@ namespace CommonClient.Extensions
 {
     public static class Entities
     {
-        public static void PlayScenario(this Entity ped, Scenario scenario) => scenario.Play(ped);
+        public static void PlayScenario(this Ped ped, Scenario scenario) => scenario.Play(ped);
 
-        public static void PlayScenario(this Entity ped, Scenario.ScenarioList scenarioName)
+        public static void PlayScenario(this Ped ped, Scenario.ScenarioList scenarioName)
         {
             Scenario s = new Scenario("", scenarioName);
             s.Play(ped);

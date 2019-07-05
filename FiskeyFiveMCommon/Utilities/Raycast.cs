@@ -16,12 +16,10 @@ namespace CommonClient.Utilities
 
             if (!cast.HasHitEntity)
             {
-                Screen.ShowSubtitle($"~r~No target found");
                 return null;
             }
             if (!cast.HitEntity.IsAPed())
             {
-                Screen.ShowSubtitle($"~r~No ped found");
                 return null;
             }
             return cast.HitEntity as Entity;

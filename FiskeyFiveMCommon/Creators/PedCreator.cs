@@ -18,7 +18,7 @@ namespace CommonClient.Creators
 
             if (veh == null) return await SpawnPed(newModel, spawn, 0f);
 
-            return await SpawnPedInVehicle(model, veh);
+            return await SpawnPedInVehicle(newModel, veh);
         }
 
         public static async Task<Ped> CreatePed(Vector3 pos, float heading = 0f, Vehicle veh = null)
@@ -30,7 +30,7 @@ namespace CommonClient.Creators
 
             if (veh == null) return await SpawnPed(newModel, pos, heading);
 
-            return await SpawnPedInVehicle(model, veh);
+            return await SpawnPedInVehicle(newModel, veh);
         }
 
         public static async Task<Ped> CreatePed(string model, Vector3 pos, float heading = 0f, Vehicle veh = null)
@@ -40,7 +40,7 @@ namespace CommonClient.Creators
 
             if (veh == null) return await SpawnPed(newModel, pos, heading);
 
-            return await SpawnPedInVehicle(model, veh);
+            return await SpawnPedInVehicle(newModel, veh);
         }
 
         public static async Task<Ped> CreatePed(PedHash model, Vector3 pos, float heading = 0f, Vehicle veh = null)
@@ -50,7 +50,7 @@ namespace CommonClient.Creators
 
             if (veh == null) return await SpawnPed(newModel, pos, heading);
 
-            return await SpawnPedInVehicle(model, veh);
+            return await SpawnPedInVehicle(newModel, veh);
         }
 
         public static async Task<Ped> CreatePed(Model model, Vector3 pos, float heading = 0f, Vehicle veh = null)

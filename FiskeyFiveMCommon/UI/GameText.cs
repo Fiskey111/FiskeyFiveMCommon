@@ -35,6 +35,7 @@ namespace CommonClient.UI
             WrapX1 = wrap1;
             WrapX2 = wrap2;
             Justify = justification;
+            Scale = scale;
         }
 
         public GameText(string text, Font font, Color color, Point position, SizeF offset, Color dropColor, int dropDistance, Justification justification = Justification.Left, float wrap1 = 0f, float wrap2 = 1.0f, float scale = 1.0f)
@@ -47,6 +48,7 @@ namespace CommonClient.UI
             WrapX1 = wrap1;
             WrapX2 = wrap2;
             Justify = justification;
+            Scale = scale;
 
             DropshadowDistance = dropDistance;
             DropshadowColor = dropColor;
@@ -54,8 +56,8 @@ namespace CommonClient.UI
 
         public void Draw()
         {
-            _x = (Position.X + Offset.Width) / Screen.Width;
-            _y = (Position.Y + Offset.Height) / Screen.Height;
+            _x = (Position.X + Offset.Width) / Screen.Resolution.Width;
+            _y = (Position.Y + Offset.Height) / Screen.Resolution.Height;
 
             _fiber = new Task(Process);
             _fiber.Start();

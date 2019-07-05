@@ -79,6 +79,7 @@
     <Compile Include="Objects\LoopedParticle.cs" />
     <Compile Include="Objects\SpawnPoint.cs" />
     <Compile Include="UI\DisplayMessageBox.cs" />
+    <Compile Include="UI\DrawText.cs" />
     <Compile Include="UI\GameText.cs" />
     <Compile Include="Creators\PedCreator.cs" />
     <Compile Include="UI\ScreenNotification.cs" />

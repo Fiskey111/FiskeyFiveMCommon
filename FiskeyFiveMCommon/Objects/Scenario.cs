@@ -16,13 +16,18 @@ namespace CommonClient.Objects
         public ScenarioList ScenarioName { get; set; }
 
         private Task _task;
-        
+
+        private bool _loop;
+        private Ped _entity;
+
         public Scenario() { }
 
         public Scenario(string shortName, string scenarioName)
         {
             ShortName = shortName;
-            ScenarioName = (ScenarioList) Enum.Parse(typeof(ScenarioList), scenarioName);
+            ScenarioList scenName;
+            bool valid = Enum.TryParse(scenarioName, out scenName);
+            ScenarioName = scenName;
         }
 
         public Scenario(string shortName, ScenarioList scenarioName)
@@ -31,37 +36,43 @@ namespace CommonClient.Objects
             ScenarioName = scenarioName;
         }
         
-        public void Play(Entity ped, bool loop = false)
+        public void Play(Ped ped, bool loop = false)
         {
             if (ped == null || !ped.Exists()) return;
+            _loop = loop;
+            _entity = ped;
 
-            if (loop)
-            {
-                _task = new Task(() => Process(ped));
-                _task.Start();
-            }
-            else
-            {
-                API.TaskStartScenarioInPlace(ped.Handle, ScenarioName.ToString(), 0, true);
-            }
-
+            _task = new Task(Process);
+            _task.Start();
         }
 
-        private async void Process(Entity ped)
+        private async void Process()
         {
+            API.TaskStartScenarioInPlace(_entity.Handle, ScenarioName.ToString(), 0, true);
             while (true)
             {
-                if (API.IsPedUsingAnyScenario(ped.Handle) 
-                    || API.IsPedActiveInScenario(ped.Handle) 
-                    || API.IsPedUsingScenario(ped.Handle, ScenarioName.ToString())) await Delay(0);
+                if (_loop)
+                {
+                    if (!API.IsPedUsingAnyScenario(_entity.Handle)
+                        && !API.IsPedActiveInScenario(_entity.Handle)
+                        && !API.IsPedUsingScenario(_entity.Handle, ScenarioName.ToString()))
+                    {
+                        API.TaskStartScenarioInPlace(_entity.Handle, ScenarioName.ToString(), 0, true);
+                    }
+                }
 
-                Play(ped);
+                if (Game.IsControlPressed(0, Control.MoveUpOnly) || Game.IsControlPressed(0, Control.MoveDownOnly) 
+                    || Game.IsControlPressed(0, Control.MoveRightOnly) || Game.IsControlPressed(0, Control.MoveLeftOnly))
+                {
+                    this.Stop();
+                }
+                await Delay(0);
             }
         }
 
         public void Stop()
         {
-           Game.PlayerPed.Task.ClearAll();
+            _entity.Task.ClearAll();
             _task?.Dispose();
         }
 
