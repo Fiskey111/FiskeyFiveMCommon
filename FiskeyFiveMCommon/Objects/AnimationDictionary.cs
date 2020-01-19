@@ -35,7 +35,7 @@ namespace CommonClient.Objects
             int time = 0;
             while (!API.HasAnimDictLoaded(Dictionary))
             {
-                await Delay(5);
+                await Delay(0001);
                 time++;
                 if (time >= WaitTime)
                 {

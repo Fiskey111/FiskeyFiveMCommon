@@ -20,6 +20,29 @@ namespace CommonClient.Extensions
             Scenario s = new Scenario("", scenarioName);
             s.Play(ped);
         }
+        public static float DistanceTo(this ISpatial start, ISpatial end)
+        {
+            return (end.Position - start.Position).Length();
+        }
+
+        public static float DistanceTo(this ISpatial start, Vector3 end)
+        {
+            return (end - start.Position).Length();
+        }
+
+        public static float DistanceTo(this Vector3 start, ISpatial end)
+        {
+            return (end.Position - start).Length();
+        }
+
+        public static void SetSpawnPoint(this Entity ent, SpawnPoint point)
+        {
+            if (!ent.IsValid()) return;
+
+            ent.Position = point.Position;
+            if (point.Rotation != Vector3.Zero) ent.Rotation = point.Rotation;
+            ent.Heading = point.Heading;
+        }
 
         public static void SetOnFire(this Entity entity)
         {

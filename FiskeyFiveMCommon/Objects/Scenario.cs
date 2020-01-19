@@ -72,6 +72,7 @@ namespace CommonClient.Objects
 
         public void Stop()
         {
+            _loop = false;
             _entity.Task.ClearAll();
             _task?.Dispose();
         }

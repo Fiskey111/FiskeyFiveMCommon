@@ -96,14 +96,13 @@ namespace CommonClient.Utilities
 
         public async void AddTask(Ped ped, string animDic, string animName, float speed, float speedMulti, int duration, int flag, float playbackRate)
         {
-            API.TaskSynchronizedScene(ped.Handle, Handle, animDic, animName, speed, speedMulti, duration, flag, playbackRate, 0);
-
             AnimationDictionary animDict = new AnimationDictionary(animDic);
             animDict.LoadAndWait();
             while (!animDict.IsLoaded)
             {
                 await Delay(0);
             }
+            API.TaskSynchronizedScene(ped.Handle, Handle, animDic, animName, speed, speedMulti, duration, flag, playbackRate, 0);
             if (animDict.IsLoaded) return;
             Screen.ShowNotification("Animation dictionary not loaded");
         }

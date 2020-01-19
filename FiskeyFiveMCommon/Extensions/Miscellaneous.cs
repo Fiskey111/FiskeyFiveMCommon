@@ -10,7 +10,10 @@ namespace CommonClient.Extensions
 {
     public static class Miscellaneous
     {
-        public static void AddLog(string log) => Debug.WriteLine(log);
+        public static void AddLog(string log)
+        {
+            Debug.WriteLine(log);
+        }
 
         public static int GetPropNetworkID(this Prop prop) => Function.Call<int>(Hash.OBJ_TO_NET, prop);
 
