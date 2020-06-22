@@ -25,7 +25,6 @@ namespace CommonClient.UI
             API.SetTextEntry("STRING");
             API.AddTextComponentString(text);
             API.DrawText(Convert.ToSingle(screenPos.X - (0.5 / 2)), Convert.ToSingle(screenPos.Y - (0.57 / 2)));
-            Screen.ShowSubtitle($"{scale} | {text} | {screenPos.X} | {screenPos.Y}");
         }
     }
 }

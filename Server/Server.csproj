@@ -56,6 +56,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>copy /Y "$(TargetPath)" "E:\FiveM\FX_Data\cfx-server-data-master\resources\fiskeyMods-EmergencyServices\$(TargetFileName)"</PostBuildEvent>
+    <PostBuildEvent>copy /Y "$(TargetPath)" "E:\FiveM\FX_Data\resources\fiskeyMods-EmergencyServices\$(TargetFileName)"</PostBuildEvent>
   </PropertyGroup>
 </Project>

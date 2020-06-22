@@ -48,5 +48,29 @@ namespace CommonClient.Extensions
             pos.Z = center.Z;
             return pos;
         }
+
+        public static void GetStreetNamesAtCoordinates(this Vector3 position, out string street, out string cross)
+        {
+            street = string.Empty;
+            cross = string.Empty;
+            uint streetHash = uint.MinValue;
+            uint crossHash = uint.MinValue;
+            API.GetStreetNameAtCoord(position.X, position.Y, position.Z, ref streetHash, ref crossHash);
+            if (streetHash != uint.MinValue) street = API.GetStreetNameFromHashKey(streetHash);
+            if (crossHash != uint.MinValue) cross = API.GetStreetNameFromHashKey(crossHash);
+        }
+
+        /// <summary>
+        /// Native 0x2A70BAE8883E4C81 -- determines if the specified point is within the other two points in a right angle wedge
+        /// </summary>
+        /// <param name="pointToCheck">Point to check</param>
+        /// <param name="point1">Base of the wedge</param>
+        /// <param name="point2">Opposite edge of the wedge</param>
+        /// <param name="length">The wedge edge length</param>
+        /// <returns></returns>
+        public static bool IsInAngledArea(this Vector3 pointToCheck, Vector3 point1, Vector3 point2, float length)
+        {
+            return Function.Call<bool>(Hash.IS_POINT_IN_ANGLED_AREA, pointToCheck.X, pointToCheck.Y, pointToCheck.Z, point1.X, point1.Y, point1.Z, point2.X, point2.Y, point2.Z, length, 0, true);
+        }
     }
 }

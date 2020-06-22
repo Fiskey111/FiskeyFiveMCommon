@@ -49,13 +49,13 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CitizenFX.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
+    <Reference Include="CitizenFX.Core, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>references\CitizenFX.Core.dll</HintPath>
+      <HintPath>E:\FiveM\Client\FiveM.app\citizen\clr2\lib\mono\4.5\CitizenFX.Core.dll</HintPath>
     </Reference>
-    <Reference Include="nativeui.net, Version=1.7.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="NativeUI.net, Version=1.7.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>references\nativeui.net.dll</HintPath>
+      <HintPath>E:\FiveM\FX_Data\cfx-server-data-master\resources\fiskeyMods-EmergencyServices\NativeUI.net.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -71,6 +71,7 @@
     <Compile Include="Creators\VehicleDictionary.cs" />
     <Compile Include="Extensions\Camera.cs" />
     <Compile Include="Extensions\Entities.cs" />
+    <Compile Include="Extensions\MathExtensions.cs" />
     <Compile Include="Extensions\Miscellaneous.cs" />
     <Compile Include="Extensions\Vector.cs" />
     <Compile Include="Objects\Animation.cs" />
@@ -78,10 +79,14 @@
     <Compile Include="Objects\AnimationDictionary.cs" />
     <Compile Include="Objects\LoopedParticle.cs" />
     <Compile Include="Objects\SpawnPoint.cs" />
+    <Compile Include="UI\Control.cs" />
+    <Compile Include="UI\DisplayHelp.cs" />
     <Compile Include="UI\DisplayMessageBox.cs" />
     <Compile Include="UI\DrawText.cs" />
     <Compile Include="UI\GameText.cs" />
     <Compile Include="Creators\PedCreator.cs" />
+    <Compile Include="UI\InputProcessing.cs" />
+    <Compile Include="UI\Marker.cs" />
     <Compile Include="UI\ScreenNotification.cs" />
     <Compile Include="Utilities\GetNearbyPeds.cs" />
     <Compile Include="Utilities\RageGame.cs" />
@@ -99,6 +104,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>copy /Y "$(TargetPath)" "E:\FiveM\FX_Data\cfx-server-data-master\resources\fiskeyMods-EmergencyServices\$(TargetFileName)"</PostBuildEvent>
+    <PostBuildEvent>copy /Y "$(TargetPath)" "E:\FiveM\FX_Data\resources\fiskeyMods-EmergencyServices\$(TargetFileName)"</PostBuildEvent>
   </PropertyGroup>
 </Project>

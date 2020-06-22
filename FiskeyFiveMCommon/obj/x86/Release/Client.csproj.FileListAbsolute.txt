@@ -6,3 +6,4 @@ F:\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\obj\x86\Release\Client.cspro
 F:\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\obj\x86\Release\CommonClient.net.dll
 F:\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\obj\x86\Release\CommonClient.net.pdb
 F:\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\obj\x86\Release\Client.csprojAssemblyReference.cache
+F:\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\obj\x86\Release\Client.csproj.CoreCompileInputs.cache
