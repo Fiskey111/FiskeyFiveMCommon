@@ -43,22 +43,19 @@
     <OutputPath>bin\x86\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <Optimize>true</Optimize>
-    <DebugType>pdbonly</DebugType>
+    <DebugType>embedded</DebugType>
     <PlatformTarget>x86</PlatformTarget>
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CitizenFX.Core, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>E:\FiveM\Client\FiveM.app\citizen\clr2\lib\mono\4.5\CitizenFX.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="NativeUI.net, Version=1.7.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>E:\FiveM\FX_Data\cfx-server-data-master\resources\fiskeyMods-EmergencyServices\NativeUI.net.dll</HintPath>
+    <Reference Include="NativeUI">
+      <HintPath>E:\FiveM\FX_Data\resources\fiskeyMods-EmergencyServices\NativeUI.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -97,10 +94,16 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilities\Serializer.cs" />
     <Compile Include="Utilities\SynchronizedScene.cs" />
+    <Compile Include="Utilities\VehicleNode.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="references\CitizenFX.Core.dll" />
     <Content Include="references\nativeui.net.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="CitizenFX.Core.Client">
+      <Version>1.0.2852</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

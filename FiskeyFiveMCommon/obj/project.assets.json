@@ -1,0 +1,121 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.5.2": {
+      "CitizenFX.Core.Client/1.0.2852": {
+        "type": "package",
+        "compile": {
+          "lib/net45/CitizenFX.Core.Client.dll": {}
+        },
+        "runtime": {
+          "lib/net45/CitizenFX.Core.Client.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5.2/win": {
+      "CitizenFX.Core.Client/1.0.2852": {
+        "type": "package",
+        "compile": {
+          "lib/net45/CitizenFX.Core.Client.dll": {}
+        },
+        "runtime": {
+          "lib/net45/CitizenFX.Core.Client.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5.2/win-x64": {
+      "CitizenFX.Core.Client/1.0.2852": {
+        "type": "package",
+        "compile": {
+          "lib/net45/CitizenFX.Core.Client.dll": {}
+        },
+        "runtime": {
+          "lib/net45/CitizenFX.Core.Client.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5.2/win-x86": {
+      "CitizenFX.Core.Client/1.0.2852": {
+        "type": "package",
+        "compile": {
+          "lib/net45/CitizenFX.Core.Client.dll": {}
+        },
+        "runtime": {
+          "lib/net45/CitizenFX.Core.Client.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CitizenFX.Core.Client/1.0.2852": {
+      "sha512": "LhZwjPt7ANwfidYQRP1zItbTp26qJWYPVENIRxochFCF+FctxA5QQG1smBAm7xNzUw1dKnXU649Ct0Y12kelqA==",
+      "type": "package",
+      "path": "citizenfx.core.client/1.0.2852",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "citizenfx.core.client.1.0.2852.nupkg.sha512",
+        "citizenfx.core.client.nuspec",
+        "lib/net45/CitizenFX.Core.Client.dll",
+        "lib/net45/CitizenFX.Core.Client.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.5.2": [
+      "CitizenFX.Core.Client >= 1.0.2852"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Chris Fiske\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "F:\\Source\\Repos\\FiskeyFiveMCommon\\FiskeyFiveMCommon\\Client.csproj",
+      "projectName": "Client",
+      "projectPath": "F:\\Source\\Repos\\FiskeyFiveMCommon\\FiskeyFiveMCommon\\Client.csproj",
+      "packagesPath": "C:\\Users\\Chris Fiske\\.nuget\\packages\\",
+      "outputPath": "F:\\Source\\Repos\\FiskeyFiveMCommon\\FiskeyFiveMCommon\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\Chris Fiske\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net452"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net452": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net452": {
+        "dependencies": {
+          "CitizenFX.Core.Client": {
+            "target": "Package",
+            "version": "[1.0.2852, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

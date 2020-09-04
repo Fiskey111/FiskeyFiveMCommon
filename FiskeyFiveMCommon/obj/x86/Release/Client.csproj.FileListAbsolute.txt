@@ -1,9 +1,7 @@
 F:\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\bin\x86\Release\CommonClient.net.dll
-F:\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\bin\x86\Release\CommonClient.net.pdb
-F:\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\bin\x86\Release\CitizenFX.Core.dll
-F:\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\bin\x86\Release\nativeui.net.dll
 F:\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\obj\x86\Release\Client.csproj.CopyComplete
 F:\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\obj\x86\Release\CommonClient.net.dll
-F:\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\obj\x86\Release\CommonClient.net.pdb
 F:\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\obj\x86\Release\Client.csprojAssemblyReference.cache
 F:\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\obj\x86\Release\Client.csproj.CoreCompileInputs.cache
+F:\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\bin\x86\Release\CitizenFX.Core.Client.dll
+F:\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\bin\x86\Release\NativeUI.dll

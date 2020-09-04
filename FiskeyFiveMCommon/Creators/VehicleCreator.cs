@@ -26,6 +26,10 @@ namespace CommonClient.Creators
 
         public static async Task<Vehicle> CreateVehicle(Model model, Vector3 pos, float heading = 0f)
         {
+            if (!model.IsLoaded)
+            {
+                await model.Request(10000);
+            }
             return await SpawnVehicle(model, pos, heading);
         }
 

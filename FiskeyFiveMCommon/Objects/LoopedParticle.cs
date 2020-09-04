@@ -10,7 +10,6 @@ namespace CommonClient.Objects
         public string AssetName { get; }
         public string ParticleName { get; }
         public int Handle { get; private set; }
-        public Prop Prop { get; set; }
         public float Scale { get; private set; }
         public Vector3 Position { get; private set; }
 
@@ -131,16 +130,11 @@ namespace CommonClient.Objects
         public void SetScale(float scale)
         {
             Scale = scale;
-            Function.Call(Hash.SET_PARTICLE_FX_LOOPED_SCALE, Handle, Scale);
+            API.SetParticleFxLoopedScale(Handle, Scale);
         }
 
-        public bool IsValid() => Function.Call<bool>(Hash.DOES_PARTICLE_FX_LOOPED_EXIST, Handle);
+        public bool IsValid() => API.DoesParticleFxLoopedExist(Handle);
 
-        public bool IsVisible() => Scale > 0f;
-
-        public void Stop()
-        {
-            Function.Call(Hash.STOP_PARTICLE_FX_LOOPED, Handle, false);
-        }
+        public void Stop() => API.StopParticleFxLooped(Handle, false);
     }
 }

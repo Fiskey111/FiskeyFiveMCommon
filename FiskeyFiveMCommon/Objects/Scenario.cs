@@ -14,6 +14,7 @@ namespace CommonClient.Objects
     {
         public string ShortName { get; set; }
         public ScenarioList ScenarioName { get; set; }
+        public bool IsRunning { get; set; }
 
         private Task _task;
 
@@ -46,32 +47,46 @@ namespace CommonClient.Objects
             _task.Start();
         }
 
+        public async Task Play(Ped ped)
+        {
+            if (ped == null || !ped.Exists()) return;
+            _loop = false;
+            _entity = ped;
+            _task = new Task(Process);
+            _task.Start();
+        }
+
         private async void Process()
         {
+            IsRunning = true;
             API.TaskStartScenarioInPlace(_entity.Handle, ScenarioName.ToString(), 0, true);
-            while (true)
+            if (_loop || _entity.IsPlayer)
             {
-                if (_loop)
+                while (true)
                 {
-                    if (!API.IsPedUsingAnyScenario(_entity.Handle)
-                        && !API.IsPedActiveInScenario(_entity.Handle)
-                        && !API.IsPedUsingScenario(_entity.Handle, ScenarioName.ToString()))
+                    if (_loop)
                     {
-                        API.TaskStartScenarioInPlace(_entity.Handle, ScenarioName.ToString(), 0, true);
+                        if (!API.IsPedUsingAnyScenario(_entity.Handle)
+                            && !API.IsPedActiveInScenario(_entity.Handle)
+                            && !API.IsPedUsingScenario(_entity.Handle, ScenarioName.ToString()))
+                        {
+                            API.TaskStartScenarioInPlace(_entity.Handle, ScenarioName.ToString(), 0, true);
+                        }
                     }
-                }
 
-                if (Game.IsControlPressed(0, Control.MoveUpOnly) || Game.IsControlPressed(0, Control.MoveDownOnly) 
-                    || Game.IsControlPressed(0, Control.MoveRightOnly) || Game.IsControlPressed(0, Control.MoveLeftOnly))
-                {
-                    this.Stop();
+                    if (Game.IsControlPressed(0, Control.MoveUpOnly) || Game.IsControlPressed(0, Control.MoveDownOnly)
+                        || Game.IsControlPressed(0, Control.MoveRightOnly) || Game.IsControlPressed(0, Control.MoveLeftOnly))
+                    {
+                        this.Stop();
+                    }
+                    await Delay(0);
                 }
-                await Delay(0);
             }
         }
 
         public void Stop()
         {
+            IsRunning = false;
             _loop = false;
             _entity.Task.ClearAll();
             _task?.Dispose();
