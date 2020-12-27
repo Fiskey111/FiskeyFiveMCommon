@@ -11,8 +11,10 @@ namespace CommonClient.Utilities
 {
     public class GetNearbyPeds
     {
-        public static Ped[] GetClosestPeds(Vector3 position)
+        [Obsolete]
+        public static Ped[] GetClosestPeds()
         {
+            return null;
             // starts at index of 2 with evens only
             List<Ped> nearbyPed = new List<Ped>();
 

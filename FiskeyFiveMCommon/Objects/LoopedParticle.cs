@@ -37,20 +37,12 @@ namespace CommonClient.Objects
             Scale = scale;
             Position = offset;
             LoadAsset();
-            // Network
             Handle = API.StartParticleFxLoopedOnEntity_2(particleName,
                 entity.Handle,
                 offset.X, offset.Y, offset.Z,
                 rotation.X, rotation.Y, rotation.Z,
                 scale,
                 false, false, false);
-
-            //            Handle = Function.Call<uint>(Hash.START_PARTICLE_FX_LOOPED_ON_ENTITY, particleName,
-            //                entity,
-            //                offset.X, offset.Y, offset.Z,
-            //                rotation.X, rotation.Y, rotation.Z,
-            //                scale,
-            //                false, false, false);
             SetScale(Scale);
         }
 

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -29,6 +30,7 @@ namespace CommonClient.UI
 
         public void Display()
         {
+            API.RequestStreamedTextureDict(ImageDictionary, true);
             API.SetNotificationTextEntry("STRING");
             API.AddTextComponentString(Text);
             API.SetNotificationMessage(ImageDictionary, ImageName, false, 0, Title, Subtitle);

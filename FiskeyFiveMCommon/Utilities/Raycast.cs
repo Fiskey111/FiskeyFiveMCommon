@@ -12,7 +12,7 @@ namespace CommonClient.Utilities
     {
         public static Entity CastForPedOrPlayer()
         {
-            RaycastResult cast = Raycast.CastCapsule(Game.PlayerPed.Position, Game.PlayerPed.GetOffsetPosition(new Vector3(0f, 1f, 0f)), Raycast.CapsuleFlags.Peds, Game.PlayerPed);
+            RaycastResult cast = CastCapsule(Game.PlayerPed.Position, Game.PlayerPed.GetOffsetPosition(new Vector3(0f, 1f, 0f)), Raycast.CapsuleFlags.Peds, Game.PlayerPed);
 
             if (!cast.HasHitEntity)
             {
