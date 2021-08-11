@@ -53,7 +53,7 @@ namespace CommonClient.Objects
             Scale = scale;
             Position = offset;
             LoadAsset();
-            Handle = API.StartParticleFxLoopedOnEntityBone_2(particleName,
+            Handle = API.StartParticleFxLoopedOnEntityBone(particleName,
                 entity.Handle,
                 offset.X, offset.Y, offset.Z,
                 rotation.X, rotation.Y, rotation.Z,

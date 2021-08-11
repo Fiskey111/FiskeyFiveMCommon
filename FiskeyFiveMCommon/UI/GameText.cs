@@ -25,7 +25,7 @@ namespace CommonClient.UI
 
         public GameText() { }
 
-        public GameText(string text, Font font, Color color, Point position, SizeF offset, Justification justification = Justification.Left, float wrap1 = 0f, float wrap2 = 1.0f, float scale = 1.0f)
+        public GameText(string text, Font font, Color color, Point position, SizeF offset, Justification justification = Justification.Left, float scale = 1.0f, float wrap1 = 0f, float wrap2 = 1.0f)
         {
             Text = text;
             TextFont = font;
@@ -38,7 +38,7 @@ namespace CommonClient.UI
             Scale = scale;
         }
 
-        public GameText(string text, Font font, Color color, Point position, SizeF offset, Color dropColor, int dropDistance, Justification justification = Justification.Left, float wrap1 = 0f, float wrap2 = 1.0f, float scale = 1.0f)
+        public GameText(string text, Font font, Color color, Point position, SizeF offset, Color dropColor, int dropDistance, Justification justification = Justification.Left, float scale = 1.0f, float wrap1 = 0f, float wrap2 = 1.0f)
         {
             Text = text;
             TextFont = font;
@@ -54,7 +54,7 @@ namespace CommonClient.UI
             DropshadowColor = dropColor;
         }
 
-        public void Draw()
+        public void DrawTask()
         {
             _x = (Position.X + Offset.Width) / Screen.Resolution.Width;
             _y = (Position.Y + Offset.Height) / Screen.Resolution.Height;
@@ -66,6 +66,23 @@ namespace CommonClient.UI
         public void Stop()
         {
             _fiber?.Dispose();
+        }
+
+        public void Draw()
+        {
+            _x = (Position.X + Offset.Width) / Screen.Resolution.Width;
+            _y = (Position.Y + Offset.Height) / Screen.Resolution.Height;
+
+            API.SetTextFont((int)TextFont);
+            API.SetTextScale(Scale, Scale);
+            API.SetTextColour(Color.R, Color.G, Color.B, Color.A);
+            API.SetTextCentre(false);
+            API.SetTextJustification((int)Justify);
+            API.SetTextDropshadow(DropshadowDistance, DropshadowColor.R, DropshadowColor.G,
+                DropshadowColor.B, DropshadowColor.A);
+            API.SetTextEntry("STRING");
+            API.AddTextComponentString(Text);
+            API.DrawText(_x, _y);
         }
 
         private async void Process()
