@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "9eDrO83i2ORhyITpWjfVYQUjRNt2cicsBJXDxTg0L99XXfI8aOnh3GgMQC/VBCclb0Zk8cwijqbtY5CvhKwHew==",
+  "dgSpecHash": "7SqYdjGGegIbfwAZ2HAfgOJXSVAgfq8yJCvlpNox05ldYNfkIPg5LNIk3OQIQ8NLCADX/HDjQ/oN4VH/DyjwaQ==",
   "success": true,
-  "projectFilePath": "F:\\Source\\Repos\\FiskeyFiveMCommon\\FiskeyFiveMCommon\\Client.csproj",
+  "projectFilePath": "C:\\Users\\cfisk\\Documents\\GitHub\\FiskeyFiveMCommon\\FiskeyFiveMCommon\\Client.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Chris Fiske\\.nuget\\packages\\citizenfx.core.client\\1.0.2852\\citizenfx.core.client.1.0.2852.nupkg.sha512"
+    "C:\\Users\\cfisk\\.nuget\\packages\\citizenfx.core.client\\1.0.2852\\citizenfx.core.client.1.0.2852.nupkg.sha512"
   ],
   "logs": []
 }
