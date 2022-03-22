@@ -50,8 +50,12 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="NativeUI">
-      <HintPath>E:\FiveM\FX_Data\resources\fiskeyMods-EmergencyServices\NativeUI.dll</HintPath>
+    <Reference Include="NativeUI, Version=1.7.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\FiveM\FX_Data\resources\fiskeyMods-EmergencyServices\NativeUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\FiveM\FX_Data\resources\fiskeyMods-EmergencyServices\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -76,15 +80,24 @@
     <Compile Include="Objects\AnimationDictionary.cs" />
     <Compile Include="Objects\LoopedParticle.cs" />
     <Compile Include="Objects\SpawnPoint.cs" />
+    <Compile Include="UI\CameraController.cs" />
+    <Compile Include="UI\ChatMessage.cs" />
     <Compile Include="UI\Control.cs" />
     <Compile Include="UI\DisplayHelp.cs" />
     <Compile Include="UI\DisplayMessageBox.cs" />
     <Compile Include="UI\DrawText.cs" />
     <Compile Include="UI\GameText.cs" />
     <Compile Include="Creators\PedCreator.cs" />
+    <Compile Include="UI\GraphicsTexture.cs" />
     <Compile Include="UI\InputProcessing.cs" />
+    <Compile Include="UI\InteractiveNotification.cs" />
+    <Compile Include="UI\Keybind.cs" />
     <Compile Include="UI\Marker.cs" />
+    <Compile Include="UI\Scaleform.cs" />
     <Compile Include="UI\ScreenNotification.cs" />
+    <Compile Include="UI\Spinner.cs" />
+    <Compile Include="UI\TimerBar.cs" />
+    <Compile Include="UI\WorldText.cs" />
     <Compile Include="Utilities\GetNearbyPeds.cs" />
     <Compile Include="Utilities\RageGame.cs" />
     <Compile Include="Utilities\RandomNumber.cs" />
@@ -107,6 +120,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>copy /Y "$(TargetPath)" "E:\FiveM\FX_Data\resources\fiskeyMods-EmergencyServices\$(TargetFileName)"</PostBuildEvent>
+    <PostBuildEvent>copy /Y "$(TargetPath)" "J:\FiveM\FX_Data\resources\fiskeyMods-EmergencyServices\$(TargetFileName)"</PostBuildEvent>
   </PropertyGroup>
 </Project>

@@ -9,7 +9,7 @@ namespace CommonClient.UI
     {
         public static async Task<string> DisplayBox(int maxLength, string windowTitle, string defaultText)
         {
-            var value = await GetBox(15, windowTitle, defaultText);
+            var value = await GetBox(maxLength, windowTitle, defaultText);
             while (value == null) await Delay(0);
             return value;
         }
@@ -17,7 +17,7 @@ namespace CommonClient.UI
         private static async Task<string> GetBox(int maxLength, string windowTitle, string defaultText)
         {
             Function.Call(Hash.DISPLAY_ONSCREEN_KEYBOARD, true, "", "", defaultText, "", "", "", maxLength + 1);
-            var scaleform = new Scaleform("TEXT_INPUT_BOX");
+            var scaleform = new CitizenFX.Core.Scaleform("TEXT_INPUT_BOX");
             scaleform.CallFunction("SET_TEXT_BOX", "", windowTitle, defaultText);
 
             var update = 0;

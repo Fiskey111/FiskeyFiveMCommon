@@ -23,6 +23,8 @@ namespace CommonClient.Extensions
             return around;
         }
 
+        public static Vector3 RandomRotation => new Vector3(RandomNumber.RandomFloat(0f, 360f), RandomNumber.RandomFloat(0f, 360f), RandomNumber.RandomFloat(0f, 360f));
+
         public static Vector3 CreateFromString(string x, string y, string z) => new Vector3(Convert.ToSingle(x), Convert.ToSingle(y), Convert.ToSingle(z));
 
         public static float DistanceTo(this Vector3 start, Vector3 end)

@@ -67,20 +67,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Chris Fiske\\.nuget\\packages\\": {}
+    "C:\\Users\\Chris Fiske\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Source\\Repos\\FiskeyFiveMCommon\\FiskeyFiveMCommon\\Client.csproj",
+      "projectUniqueName": "J:\\Development\\Source\\Repos\\FiskeyFiveMCommon\\FiskeyFiveMCommon\\Client.csproj",
       "projectName": "Client",
-      "projectPath": "F:\\Source\\Repos\\FiskeyFiveMCommon\\FiskeyFiveMCommon\\Client.csproj",
+      "projectPath": "J:\\Development\\Source\\Repos\\FiskeyFiveMCommon\\FiskeyFiveMCommon\\Client.csproj",
       "packagesPath": "C:\\Users\\Chris Fiske\\.nuget\\packages\\",
-      "outputPath": "F:\\Source\\Repos\\FiskeyFiveMCommon\\FiskeyFiveMCommon\\obj\\",
+      "outputPath": "J:\\Development\\Source\\Repos\\FiskeyFiveMCommon\\FiskeyFiveMCommon\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\Chris Fiske\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

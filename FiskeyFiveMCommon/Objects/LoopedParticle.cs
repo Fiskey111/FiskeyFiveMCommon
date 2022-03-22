@@ -68,7 +68,7 @@ namespace CommonClient.Objects
         {
         }
 
-        public LoopedParticle(string assetName, string particleName, Vector3 position, float scale)
+        public LoopedParticle(string assetName, string particleName, Vector3 position, Vector3 rotation, float scale)
         {
             AssetName = assetName;
             ParticleName = particleName;
@@ -77,7 +77,7 @@ namespace CommonClient.Objects
             LoadAsset();
             Handle = API.StartParticleFxLoopedAtCoord(particleName,
                 position.X, position.Y, position.Z,
-                0f, 0f, 0f,
+                rotation.X, rotation.Y, rotation.Z,
                 scale,
                 false, false, false, false);
             SetScale(Scale);

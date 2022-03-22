@@ -17,3 +17,13 @@ F:\Source\Repos\FiskeyFiveMCommon\Server\obj\Debug\Server.csproj.CoreCompileInpu
 F:\Source\Repos\FiskeyFiveMCommon\Server\obj\Debug\Server.csproj.CopyComplete
 F:\Source\Repos\FiskeyFiveMCommon\Server\obj\Debug\CommonServer.net.dll
 F:\Source\Repos\FiskeyFiveMCommon\Server\obj\Debug\CommonServer.net.pdb
+J:\Development\Source\Repos\FiskeyFiveMCommon\Server\bin\Debug\CommonServer.net.dll
+J:\Development\Source\Repos\FiskeyFiveMCommon\Server\bin\Debug\CommonServer.net.pdb
+J:\Development\Source\Repos\FiskeyFiveMCommon\Server\bin\Debug\CitizenFX.Core.dll
+J:\Development\Source\Repos\FiskeyFiveMCommon\Server\bin\Debug\MsgPack.dll
+J:\Development\Source\Repos\FiskeyFiveMCommon\Server\bin\Debug\MsgPack.xml
+J:\Development\Source\Repos\FiskeyFiveMCommon\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+J:\Development\Source\Repos\FiskeyFiveMCommon\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+J:\Development\Source\Repos\FiskeyFiveMCommon\Server\obj\Debug\Server.csproj.CopyComplete
+J:\Development\Source\Repos\FiskeyFiveMCommon\Server\obj\Debug\CommonServer.net.dll
+J:\Development\Source\Repos\FiskeyFiveMCommon\Server\obj\Debug\CommonServer.net.pdb

@@ -21,3 +21,13 @@ F:\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\obj\Debug\Client.csproj.Core
 F:\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\obj\Debug\Client.csproj.CopyComplete
 F:\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\obj\Debug\CommonClient.net.dll
 F:\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\obj\Debug\CommonClient.net.pdb
+J:\Development\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\bin\Debug\CommonClient.net.dll
+J:\Development\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\bin\Debug\CommonClient.net.pdb
+J:\Development\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\bin\Debug\CitizenFX.Core.Client.dll
+J:\Development\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\bin\Debug\NativeUI.dll
+J:\Development\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\bin\Debug\Newtonsoft.Json.dll
+J:\Development\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\obj\Debug\Client.csproj.AssemblyReference.cache
+J:\Development\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\obj\Debug\Client.csproj.CoreCompileInputs.cache
+J:\Development\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\obj\Debug\Client.csproj.CopyComplete
+J:\Development\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\obj\Debug\CommonClient.net.dll
+J:\Development\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\obj\Debug\CommonClient.net.pdb

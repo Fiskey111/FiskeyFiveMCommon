@@ -1,4 +1,5 @@
-﻿using System.Drawing;
+﻿using System.Collections.Generic;
+using System.Drawing;
 using System.Threading.Tasks;
 using CitizenFX.Core;
 using CitizenFX.Core.Native;
@@ -82,6 +83,26 @@ namespace CommonClient.UI
                 DropshadowColor.B, DropshadowColor.A);
             API.SetTextEntry("STRING");
             API.AddTextComponentString(Text);
+            API.DrawText(_x, _y);
+        }
+
+        public void Draw(string setTextEntry, List<string> textEntries)
+        {
+            _x = (Position.X + Offset.Width) / Screen.Resolution.Width;
+            _y = (Position.Y + Offset.Height) / Screen.Resolution.Height;
+
+            API.SetTextFont((int)TextFont);
+            API.SetTextScale(Scale, Scale);
+            API.SetTextColour(Color.R, Color.G, Color.B, Color.A);
+            API.SetTextCentre(false);
+            API.SetTextJustification((int)Justify);
+            API.SetTextDropshadow(DropshadowDistance, DropshadowColor.R, DropshadowColor.G,
+                DropshadowColor.B, DropshadowColor.A);
+            API.SetTextEntry(setTextEntry);
+            foreach (var entry in textEntries)
+            {
+                API.AddTextComponentString(entry);
+            }
             API.DrawText(_x, _y);
         }
 
