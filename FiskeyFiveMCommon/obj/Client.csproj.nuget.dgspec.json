@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "J:\\Development\\Source\\Repos\\FiskeyFiveMCommon\\FiskeyFiveMCommon\\Client.csproj": {}
+    "C:\\Users\\cfisk\\Documents\\GitHub\\FiskeyFiveMCommon\\FiskeyFiveMCommon\\Client.csproj": {}
   },
   "projects": {
-    "J:\\Development\\Source\\Repos\\FiskeyFiveMCommon\\FiskeyFiveMCommon\\Client.csproj": {
+    "C:\\Users\\cfisk\\Documents\\GitHub\\FiskeyFiveMCommon\\FiskeyFiveMCommon\\Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "J:\\Development\\Source\\Repos\\FiskeyFiveMCommon\\FiskeyFiveMCommon\\Client.csproj",
+        "projectUniqueName": "C:\\Users\\cfisk\\Documents\\GitHub\\FiskeyFiveMCommon\\FiskeyFiveMCommon\\Client.csproj",
         "projectName": "Client",
-        "projectPath": "J:\\Development\\Source\\Repos\\FiskeyFiveMCommon\\FiskeyFiveMCommon\\Client.csproj",
-        "packagesPath": "C:\\Users\\Chris Fiske\\.nuget\\packages\\",
-        "outputPath": "J:\\Development\\Source\\Repos\\FiskeyFiveMCommon\\FiskeyFiveMCommon\\obj\\",
+        "projectPath": "C:\\Users\\cfisk\\Documents\\GitHub\\FiskeyFiveMCommon\\FiskeyFiveMCommon\\Client.csproj",
+        "packagesPath": "C:\\Users\\cfisk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cfisk\\Documents\\GitHub\\FiskeyFiveMCommon\\FiskeyFiveMCommon\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Chris Fiske\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\cfisk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

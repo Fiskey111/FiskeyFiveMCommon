@@ -5,10 +5,9 @@ F:\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\obj\x86\Release\Client.cspro
 F:\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\obj\x86\Release\Client.csproj.CoreCompileInputs.cache
 F:\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\bin\x86\Release\CitizenFX.Core.Client.dll
 F:\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\bin\x86\Release\NativeUI.dll
-J:\Development\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\obj\x86\Release\Client.csproj.AssemblyReference.cache
-J:\Development\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\obj\x86\Release\Client.csproj.CoreCompileInputs.cache
-J:\Development\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\obj\x86\Release\CommonClient.net.dll
-J:\Development\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\bin\x86\Release\CommonClient.net.dll
-J:\Development\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\bin\x86\Release\CitizenFX.Core.Client.dll
-J:\Development\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\bin\x86\Release\Newtonsoft.Json.dll
-J:\Development\Source\Repos\FiskeyFiveMCommon\FiskeyFiveMCommon\obj\x86\Release\Client.csproj.CopyComplete
+C:\Users\cfisk\Documents\GitHub\FiskeyFiveMCommon\FiskeyFiveMCommon\bin\x86\Release\CommonClient.net.dll
+C:\Users\cfisk\Documents\GitHub\FiskeyFiveMCommon\FiskeyFiveMCommon\bin\x86\Release\CitizenFX.Core.Client.dll
+C:\Users\cfisk\Documents\GitHub\FiskeyFiveMCommon\FiskeyFiveMCommon\obj\x86\Release\Client.csprojAssemblyReference.cache
+C:\Users\cfisk\Documents\GitHub\FiskeyFiveMCommon\FiskeyFiveMCommon\obj\x86\Release\Client.csproj.CoreCompileInputs.cache
+C:\Users\cfisk\Documents\GitHub\FiskeyFiveMCommon\FiskeyFiveMCommon\obj\x86\Release\Client.csproj.CopyComplete
+C:\Users\cfisk\Documents\GitHub\FiskeyFiveMCommon\FiskeyFiveMCommon\obj\x86\Release\CommonClient.net.dll
